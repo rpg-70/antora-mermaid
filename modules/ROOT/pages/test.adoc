@@ -1,8 +1,15 @@
 = Test
+include::attributes.adoc[]
 :doctype: book
 :toc: left
 :toclevels: 2
 :sectnums:
+
+== Attributes
+[%hardbreaks]
+source-language: {source-language}
+table-caption: {table-caption}
+aaa: {aaa}
 
 == Diagram
 

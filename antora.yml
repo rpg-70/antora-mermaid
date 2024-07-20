@@ -2,9 +2,5 @@ name: module
 title: module
 version: ~
 start_page: test.adoc
-asciidoc:
-  attributes:
-    source-language: asciidoc@
-    table-caption: false
 nav:
 - modules/ROOT/nav.adoc
