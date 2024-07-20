@@ -1,13 +1,10 @@
-= My Documentation Site
-Author Name <author@example.com>
+= Test
 :doctype: book
 :toc: left
 :toclevels: 2
 :sectnums:
 
-Welcome to the documentation for My Documentation Site.
-
-== Introduction
+== Diagram
 
 ++++
 <style>
@@ -16,7 +13,6 @@ Welcome to the documentation for My Documentation Site.
 }
 </style>
 ++++
-
 
 [mermaid]
 ....

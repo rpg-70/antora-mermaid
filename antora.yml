@@ -1,7 +1,7 @@
-name: local
-title: local
+name: module
+title: module
 version: ~
-start_page: index.adoc
+start_page: test.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@

@@ -1,6 +1,6 @@
 site:
-  title: My Documentation Site
-  start_page: local::index.adoc
+  title: Test
+  start_page: module::test.adoc
 content:
   sources:
     - url: .
