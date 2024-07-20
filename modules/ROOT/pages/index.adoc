@@ -1,0 +1,28 @@
+= My Documentation Site
+Author Name <author@example.com>
+:doctype: book
+:toc: left
+:toclevels: 2
+:sectnums:
+
+Welcome to the documentation for My Documentation Site.
+
+== Introduction
+
+++++
+<style>
+.mermaid {
+  width: 100%;
+}
+</style>
+++++
+
+
+[mermaid]
+....
+sequenceDiagram
+test->>test1: teting API call
+test1->>test2: forward call
+test2->>test1: return
+test1->>test: return
+....

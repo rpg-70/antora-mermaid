@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "antora antora-playbook.yml"
+    },
+    "devDependencies": {
+        "@antora/lunr-extension": "^1.0.0-alpha.8",
+        "@redocly/cli": "^1.18.0",
+        "@sntke/antora-mermaid-extension": "^0.0.5",
+        "antora": "^3.1.9"
+    }
+}

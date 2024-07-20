@@ -1,0 +1,29 @@
+site:
+  title: My Documentation Site
+  start_page: local::index.adoc
+content:
+  sources:
+    - url: .
+      branches: HEAD
+
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
+    - require: '@sntke/antora-mermaid-extension'
+      mermaid_library_url: https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
+      script_stem: header-scripts
+      mermaid_initialize_options:
+        start_on_load: true
+        log_level: 'debug'
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+runtime:
+  log:
+    level: debug
