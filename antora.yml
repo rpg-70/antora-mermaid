@@ -2,5 +2,12 @@ name: module
 title: module
 version: ~
 start_page: test.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+    aaa: bbb
+    attribute-missing: warn
+    attribute-undefined: warn
 nav:
 - modules/ROOT/nav.adoc

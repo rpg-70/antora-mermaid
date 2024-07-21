@@ -1,5 +1,4 @@
 = Test
-include::attributes.adoc[]
 :doctype: book
 :toc: left
 :toclevels: 2
@@ -12,16 +11,8 @@ table-caption: {table-caption}
 aaa: {aaa}
 
 == Diagram
-
-++++
-<style>
-.mermaid {
-  width: 100%;
-}
-</style>
-++++
-
 [mermaid]
+ifdef::env-github[[source,mermaid]]
 ....
 sequenceDiagram
 test->>test1: teting API call
